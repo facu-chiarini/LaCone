@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Ds_PPM" targetNamespace="http://tempuri.org/Ds_PPM.xsd" xmlns:mstns="http://tempuri.org/Ds_PPM.xsd" xmlns="http://tempuri.org/Ds_PPM.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Ds_PPM" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="Ds_PPM" msprop:Generator_UserDSName="Ds_PPM">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Res_PPM" msprop:Generator_TableClassName="Res_PPMDataTable" msprop:Generator_TableVarName="tableRes_PPM" msprop:Generator_TablePropName="Res_PPM" msprop:Generator_RowDeletingName="Res_PPMRowDeleting" msprop:Generator_RowChangingName="Res_PPMRowChanging" msprop:Generator_RowEvHandlerName="Res_PPMRowChangeEventHandler" msprop:Generator_RowDeletedName="Res_PPMRowDeleted" msprop:Generator_UserTableName="Res_PPM" msprop:Generator_RowChangedName="Res_PPMRowChanged" msprop:Generator_RowEvArgName="Res_PPMRowChangeEvent" msprop:Generator_RowClassName="Res_PPMRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NombreComun" msprop:Generator_ColumnVarNameInTable="columnNombreComun" msprop:Generator_ColumnPropNameInRow="NombreComun" msprop:Generator_ColumnPropNameInTable="NombreComunColumn" msprop:Generator_UserColumnName="NombreComun" type="xs:string" minOccurs="0" />
+              <xs:element name="Total" msprop:Generator_ColumnVarNameInTable="columnTotal" msprop:Generator_ColumnPropNameInRow="Total" msprop:Generator_ColumnPropNameInTable="TotalColumn" msprop:Generator_UserColumnName="Total" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
